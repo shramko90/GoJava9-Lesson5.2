@@ -1,7 +1,7 @@
 package MP3player;
 
-/**
- * Created by Tiger on 29.11.2017.
- */
-public class ChooseFile {
+import javafx.stage.Stage;
+
+public interface ChooseFile {
+    void chooseFile(Stage primaryStage);
 }

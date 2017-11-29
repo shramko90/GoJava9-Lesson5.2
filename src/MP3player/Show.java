@@ -1,7 +1,8 @@
 package MP3player;
 
-/**
- * Created by Tiger on 29.11.2017.
- */
-public class Show {
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
+
+public interface Show {
+    void show(Pane root, Stage primaryStage);
 }
